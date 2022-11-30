@@ -18,6 +18,7 @@ public class Mwst {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        /*
         double mwstSatz;        // Variable zum Speichern des MwSt-Satzes
         double nettoBetrag;     // Variable zum Speichern des Netto-Betrages
         double bruttoBetrag;    // Variable zum Speichern des Brutto-Betrages
@@ -28,12 +29,19 @@ public class Mwst {
         
         /* HIER Vervollstaendigen */
         
+        /*
         System.out.println("Bitte Prozente eingeben:");
         mwstSatz = myScanner.nextDouble();
         bruttoBetrag =  nettoBetrag * ( 1 + mwstSatz / 100); 
         bruttoBetrag = round2Dec(bruttoBetrag);
         
         System.out.println("Der Bruttobetrag ist " + bruttoBetrag + "€");
+        */
+
+        for (int j = 1; j < 10; j= j + j %3){
+            System.out.print(j + "");
+            }
+            
     }
     
 }
