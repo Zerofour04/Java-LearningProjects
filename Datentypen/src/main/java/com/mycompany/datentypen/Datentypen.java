@@ -17,7 +17,7 @@ public class Datentypen {
         b = 8;
         c = a/b;
         d = a%b;
-        System.out.println(c + d);
+        System.out.print(c, d);
 
     }
 }
